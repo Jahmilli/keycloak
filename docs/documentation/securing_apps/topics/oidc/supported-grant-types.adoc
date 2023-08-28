@@ -78,6 +78,7 @@ For more details, see the https://datatracker.ietf.org/doc/html/rfc6749#section-
 ==== Device Authorization Grant
 
 Device Authorization Grant is used by clients running on internet-connected devices that have limited input capabilities or lack a suitable browser.
+
 . The application requests {project_name} a device code and a user code. 
 . {project_name} creates a device code and a user code. 
 . {project_name} returns a response including the device code and the user code to the application. 
